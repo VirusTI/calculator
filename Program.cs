@@ -11,7 +11,7 @@ class Program
 
         while (true)
         {
-            Console.Write("\nВведите первое число: ");
+            Console.Write($"{Environment.NewLine}Введите первое число: ");
             string? input1 = Console.ReadLine();
 
             if (input1?.Trim().ToLower() == "q")
